@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  background-color: #c4e8cc;
+  width: 600px;
+  margin: auto;
+  margin-top: 120px;
+  height: 250px;
+  border-radius: 10px;
+  padding-top: 50px;
+  color: rgb(34, 44, 36);
+}
+.search {
+  padding: 0 80px;
+}
+.search p {
+  width: 50%;
+  font-size: 25px;
+  margin: 5px 20px;
+}
+.search input {
+  width: 350px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  font-size: 25px;
+}
+ul {
+  margin: 8px 0 0;
+  padding: 0;
+}
+ul li {
+  box-sizing: border-box;
+  border: 1px solid;
+  list-style: none;
+  background-color: white;
+  max-width: 350px;
+  min-height: 25px;
+  text-align: left;
+  padding: 10px;
+  text-transform: capitalize;
+}
